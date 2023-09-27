@@ -12,7 +12,7 @@ class baas(locate):
         exe_path = "H:\\MuMuPlayer-12.0\\shell\\MuMuPlayer.exe"  # 可设置 模拟器 .exe 文件路径
         #        subprocess.Popen(exe_path)
         #        time.sleep(30)
-        simulator_port = 7555
+        simulator_port = 16384
         adb_command = f"adb connect 127.0.0.1:{simulator_port}"  # 可设置 模拟器 端口
         #        for i in range(0, 6):
         #           try:
